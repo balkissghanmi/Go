@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh ' go version'
-                sh ' sh /usr/local/go/bin/go build -o mapp2'
+                sh '/usr/local/go/bin/go build -o mapp2'
             }
         }
     
