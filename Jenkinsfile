@@ -9,6 +9,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh ' go version'
+                sh ' sh go build -o mapp2'
             }
         }
     
