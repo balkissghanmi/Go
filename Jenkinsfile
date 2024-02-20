@@ -6,7 +6,7 @@ pipeline {
         stage("go version") {
             steps {
                 sh 'pwd'
-                sh 'go version'
+                sh 'sudo go build -buildvcs=false -o myapp'
             }
         }
     
