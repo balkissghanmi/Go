@@ -13,6 +13,8 @@ pipeline {
                 sh 'pwd'
                 sh ' go version'
                 sh '/usr/local/go/bin/go build -o mapp2'
+                 sh '/usr/local/go/bin/go test'
+
             }
         }
     
